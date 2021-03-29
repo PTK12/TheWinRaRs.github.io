@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Fira Sans";
+    background: radial-gradient(#000, #02023d);
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+img {
+    width: 100%;
+}
+
+p {
+    color: #ccc;
+}
+.attention-main {
+    flex-flow: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.attention-main div{
+    max-width: 500px;
+}
+.attention-main h1{
+    font-weight: bold;
+    font-size: 50px;
+    background: -webkit-linear-gradient(0deg, #df0000, #ffcc00, #00bb00, #2b00ff, #8800ee);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.attention-pic {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    padding: 50px;
+}
+.attention-pic img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.attention-info {
+    margin-left: 50px;
+    font-size: 1.75em;
+}
+.very-nice-button {
+    display: inline-block;
+    margin: 5px;
+    font-size: 24px;
+    padding: 0.2cm;
+    border-radius: 0.5cm;
+    background: linear-gradient(90deg, #34af24, #45b938);
+}
